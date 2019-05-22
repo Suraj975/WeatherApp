@@ -1,0 +1,158 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f09819,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+  height: 100vh;
+  font-family: sans-serif;
+  align-self: stretch;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  margin-left: 20px;
+}
+
+.weatherBox {
+  margin: 0 px;
+}
+
+.weather {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.tablediv {
+  color: white;
+  margin-top: 10px;
+
+  padding: 40px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+
+  background: #8e0e00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #1f1c18,
+    #8e0e00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #1f1c18,
+    #8e0e00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.urlImg {
+  margin-left: 60px;
+}
+
+.weatherType {
+  margin-left: 65px;
+}
+
+.sky {
+  color: white;
+  margin-top: 10px;
+
+  padding: 40px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+  background: #ff9966; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff5e62,
+    #ff9966
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.night {
+  color: black;
+  margin-top: 10px;
+
+  padding: 40px;
+  box-shadow: 8px 10px rgba(0, 0, 0, 0.2);
+
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+input {
+  margin-right: 10px;
+  height: 20px;
+  box-shadow: 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inputBox {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+button {
+  color: white;
+  height: 27px;
+  background: #396afc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2948ff,
+    #396afc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  box-shadow: 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: #0b7dda;
+}
