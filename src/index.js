@@ -36,7 +36,7 @@ class App extends Component {
     fetch(
       `https://maps.googleapis.com/maps/api/geocode/json?address=${
         this.state.city
-      }&key=AIzaSyCcLUgaD-MkmKgF5UADktGEHH3gIUrTwcg`
+      }&key=AIzddsKCcLUgaD-MkmKgF5UADktGEHH3gIUrTwcg`
     )
       .then(res => res.json())
       .then(data => {
@@ -61,7 +61,7 @@ class App extends Component {
         this.state.lat
       }&lon=${
         this.state.lng
-      }&units=metric&appid=29802d803638d42e396360874c9ed955`
+      }&units=metric&appid=298025735638d42e396360874c9ed955`
     )
       .then(response => response.json())
       .then(data => {
